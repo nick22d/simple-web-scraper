@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
     SHELL
 
     # Import the necessary artifacts
-    ws.vm.provision "file", source: "robots.txt", destination: "/tmp/robots.txt"
+    ws.vm.provision "file", source: "./coffeeshop/robots.txt", destination: "/tmp/robots.txt"
     ws.vm.provision "file", source: "nginx.conf", destination: "/tmp/nginx.conf"
     ws.vm.provision "file", source: "site.conf", destination: "/tmp/nginx-site.conf"
 
