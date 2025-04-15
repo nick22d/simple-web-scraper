@@ -1,0 +1,8 @@
+# Vagrant environment
+.vagrant/
+
+# Virtual machine boxes
+*.box
+
+# Other artifacts
+*.log

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cappuccino</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdfaf6;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 400px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover img {
+            transform: scale(1.05);
+        }
+
+        .caption {
+            margin-top: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .description {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="../assets/cappuccino.jpg" alt="Cappuccino">
+        <div class="caption">Cappuccino</div>
+        <div class="description">
+            A cappuccino is a classic Italian coffee drink made with equal parts espresso, steamed milk, and milk foam. It's creamy, rich, and topped with a frothy finish.
+        </div>
+    </div>
+</body>
+</html>

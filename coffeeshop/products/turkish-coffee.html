@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Turkish Coffee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffdf9;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 400px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover img {
+            transform: scale(1.05);
+        }
+
+        .caption {
+            margin-top: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .description {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="../assets/turkish-coffee.jpg" alt="Turkish Coffee">
+        <div class="caption">Turkish Coffee</div>
+        <div class="description">
+            Turkish coffee is a traditional and strong coffee made from finely ground Arabica beans brewed with water and sugar. It's typically served in small cups and is known for its rich flavor and thick consistency.
+        </div>
+    </div>
+</body>
+</html>

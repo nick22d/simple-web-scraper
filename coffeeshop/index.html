@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f8f8f8;
+        }
+        h1 {
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+        .product {
+            text-align: center;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.05); /* Zoom in */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Glow effect */
+        }
+        .product img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 8px;
+        }
+        .caption {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        /* Optional: styling the links to remove the default underline */
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Coffee Shop</h1>
+    <div class="container">
+        <a href="products/espresso.html" class="product">
+            <img src="assets/espresso.jpg" alt="Espresso">
+            <div class="caption">Espresso - $2.99</div>
+        </a>
+        <a href="products/cappucino.html" class="product">
+            <img src="assets/cappuccino.jpg" alt="Cappuccino">
+            <div class="caption">Cappuccino - $3.99</div>
+        </a>
+        <a href="products/latte.html" class="product">
+            <img src="assets/latte.jpg" alt="Latte">
+            <div class="caption">Latte - $4.49</div>
+        </a>
+        <a href="products/americano.html" class="product">
+            <img src="assets/americano.jpg" alt="Americano">
+            <div class="caption">Americano - $2.49</div>
+        </a>
+        <a href="products/turkish-coffee.html" class="product">
+            <img src="assets/turkish-coffee.jpg" alt="Turkish coffee">
+            <div class="caption">Turkish coffee - $4.99</div>
+        </a>
+        <a href="products/macchiato.html" class="product">
+            <img src="assets/macchiato.jpg" alt="Macchiato">
+            <div class="caption">Macchiato - $3.49</div>
+        </a>
+        <a href="products/flat-white.html" class="product">
+            <img src="assets/flat-white.jpg" alt="Flat White">
+            <div class="caption">Flat White - $3.79</div>
+        </a>
+        <a href="products/irish-coffee.html" class="product">
+            <img src="assets/irish-coffee.jpg" alt="Irish Coffee">
+            <div class="caption">Irish Coffee - $3.29</div>
+        </a>
+        <a href="products/affogato.html" class="product">
+            <img src="assets/affogato.jpg" alt="Affogato">
+            <div class="caption">Affogato - $5.49</div>
+        </a>
+    </div>
+</body>
+</html>
