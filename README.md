@@ -4,9 +4,8 @@
 
 
 ## Usage
-It is assumed that you have already installed Vagrant and python. 
 
-To use this solution, please follow the instructions below.
+To use this lab, please follow the instructions below.
 
 **1)** Clone the repository locally:
 
