@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-# URL of the mock coffee shop page (update with actual URL if hosted online)
-URL = "http://192.168.56.10:80/index.html"  # Change this to an actual URL or local file path
+# URL of the mock coffee shop page
+URL = "http://192.168.56.10:80/index.html" 
 
 # Load the page content
 response = requests.get(URL)

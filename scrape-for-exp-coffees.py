@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-# URL of the mock coffee shop page
+# URL of the coffee shop page
 URL = "http://192.168.56.10:80/index.html"
 
 # Load the page content
