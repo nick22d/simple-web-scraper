@@ -2,6 +2,13 @@
 
 ![Picture](images/bot.png)
 
+## Prerequisites
+
+Install the required libraries:
+
+```
+pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -28,13 +35,13 @@ vagrant up
 **4)** Scrape the coffee shop web site to obtain all products:
 
 ```
-python3 scraper.py
+python scraper.py
 ```
 
 **5)** Scrape the coffee shop web site to obtain all products worth more than $4:
 
 ```
-python3 scrape-for-exp-coffees.py
+python scrape-for-exp-coffees.py
 ```
 
 **6)** Tear down the web server:
