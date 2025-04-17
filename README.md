@@ -2,13 +2,6 @@
 
 ![Picture](images/bot.png)
 
-## Prerequisites
-
-Install the required libraries:
-
-```
-pip install -r requirements.txt
-```
 
 ## Usage
 
@@ -26,25 +19,31 @@ git clone git@github.com:nick22d/simple-web-scraper.git
 cd simple-web-scraper/
 ```
 
-**3)** Launch the web server:
+**3)** Install the required libraries:
+
+```
+pip install -r requirements.txt
+```
+
+**4)** Launch the web server:
 
 ```
 vagrant up
 ```
 
-**4)** Scrape the coffee shop web site to obtain all products:
+**5)** Scrape the coffee shop web site to obtain all products:
 
 ```
 python scraper.py
 ```
 
-**5)** Scrape the coffee shop web site to obtain all products worth more than $4:
+**6)** Scrape the coffee shop web site to obtain all products worth more than $4:
 
 ```
 python scrape-for-exp-coffees.py
 ```
 
-**6)** Tear down the web server:
+**7)** Tear down the web server:
 
 ```
 vagrant destroy -f
